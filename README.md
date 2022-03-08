@@ -1,4 +1,4 @@
-[![Download](distribution/Download.svg)](https://github.com/TXAE/Interrupts_8086/releases/latest/download/Interrupts_8086.exe)
+[![Download](https://raw.githubusercontent.com/hneemann/Digital/master/distribution/Download.svg)](https://github.com/TXAE/Interrupts_8086/releases/latest/download/Interrupts_8086.exe)
 
 # Interrupts_8086
 
