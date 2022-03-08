@@ -1,3 +1,5 @@
+[![Download](distribution/Download.svg)](https://github.com/TXAE/Interrupts_8086/releases/latest/download/Interrupts_8086.exe)
+
 # Interrupts_8086
 
 Simulates interrupt handling of the Intel 8086 chip within [Digital](https://github.com/hneemann/Digital).
