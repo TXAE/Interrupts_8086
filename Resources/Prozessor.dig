@@ -1,0 +1,1195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes>
+    <entry>
+      <string>backgroundColor</string>
+      <awt-color>
+        <red>255</red>
+        <green>102</green>
+        <blue>102</blue>
+        <alpha>255</alpha>
+      </awt-color>
+    </entry>
+    <entry>
+      <string>Description</string>
+      <string>Dieses Bauteil ist eine Nachbildung der
+Interruptverarbeitungsfunktionen eines Intel 8086 Prozessors.</string>
+    </entry>
+    <entry>
+      <string>Label</string>
+      <string>Prozessor</string>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>7</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>Clock</elementName>
+      <elementAttributes>
+        <entry>
+          <string>runRealTime</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>C</string>
+        </entry>
+        <entry>
+          <string>Frequency</string>
+          <int>400</int>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>IPi</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="4660" z="false"/>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CSi</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="45054" z="false"/>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>C</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Stack-Adresse, berechnet aus SS und SP</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>SAdr</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="36" z="false"/>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Decoder</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="-160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Adressbus</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>AB</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>WR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Datenbus</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>DB</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+        <entry>
+          <string>isHighZ</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="0" z="true"/>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="320"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>RD</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>IPo</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>CSo</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>IPCS.dig</elementName>
+      <elementAttributes/>
+      <pos x="620" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>C</string>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Fortsetzadresse (Adresse, an der die ISR steht)</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Adr</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="360"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1560" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>2</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1060" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes/>
+      <pos x="1800" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Not</elementName>
+      <elementAttributes/>
+      <pos x="1860" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Add</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>2</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Sub</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Aktueller Schritt in der Simulation</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Schritt</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="-180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Stop</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+      </elementAttributes>
+      <pos x="860" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Mul</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>InterruptNr x4</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>4</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="520" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>32</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>20,12</string>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1000" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>S1 OR S2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1900" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S1 OR S2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1560" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DriverInvSel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>D_FF</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Hold AB to prevent oscillation</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>15</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Step 4: AB = InterruptNr x4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>15</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Step 5: AB = InterruptNr x4 + 2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="480"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Register</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Save InterruptNr x4 on Step 3</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="-120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1860" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>15</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>en is set to 3 to only output on Step 3
+later steps will use DB for RAM &amp; IPCS
+and we don&apos;t want to interfere with that</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Step_counter.dig</elementName>
+      <elementAttributes/>
+      <pos x="480" y="-160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INTA!</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1940" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>C</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Go to next step</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Next</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="-160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Go to previous step</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Prev</string>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Anschluss 18
+
+Dieser Interrupt-Anschluss wird nach dem Abschluss eines jeden Befehls abgetastet, um zu
+ermitteln, ob eine Interrupt-Anforderung durch einen Hardware-Baustein vorliegt. Die Abtastung kann durch ein gelöschtes Interrupt Flag verhindert (maskiert) werd</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>INTR</string>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RS_FF_AS</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Save INTR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="-20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="0"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>15</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Step 2: DB = CS</string>
+        </entry>
+      </elementAttributes>
+      <pos x="660" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>15</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Step 1: DB = IP</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="240"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="320" y="320"/>
+      <p2 x="400" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="320"/>
+      <p2 x="1060" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="320"/>
+      <p2 x="800" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="0"/>
+      <p2 x="1300" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="0"/>
+      <p2 x="1800" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="200"/>
+      <p2 x="620" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="-140"/>
+      <p2 x="480" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-140"/>
+      <p2 x="600" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-140"/>
+      <p2 x="860" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="140"/>
+      <p2 x="1060" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="140"/>
+      <p2 x="620" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="140"/>
+      <p2 x="1760" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1860" y="-80"/>
+      <p2 x="1880" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="1880" y="-80"/>
+      <p2 x="1940" y="-80"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="400"/>
+      <p2 x="520" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="720"/>
+      <p2 x="1300" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-20"/>
+      <p2 x="360" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="-20"/>
+      <p2 x="460" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="660"/>
+      <p2 x="1160" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="660"/>
+      <p2 x="1280" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="660"/>
+      <p2 x="1360" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1860" y="20"/>
+      <p2 x="1940" y="20"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="600"/>
+      <p2 x="1640" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="820" y="280"/>
+      <p2 x="960" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="220"/>
+      <p2 x="1940" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="220"/>
+      <p2 x="620" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-160"/>
+      <p2 x="480" y="-160"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="160"/>
+      <p2 x="800" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="160"/>
+      <p2 x="1740" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="-100"/>
+      <p2 x="1800" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="-100"/>
+      <p2 x="340" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="420"/>
+      <p2 x="620" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="420"/>
+      <p2 x="780" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1900" y="100"/>
+      <p2 x="1940" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="1880" y="-40"/>
+      <p2 x="1900" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="40"/>
+      <p2 x="1440" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="40"/>
+      <p2 x="1800" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="360"/>
+      <p2 x="1940" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="680"/>
+      <p2 x="1160" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="300"/>
+      <p2 x="1940" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="240"/>
+      <p2 x="1040" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-180"/>
+      <p2 x="1940" y="-180"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="180"/>
+      <p2 x="1720" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="180"/>
+      <p2 x="620" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="500"/>
+      <p2 x="1640" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="500"/>
+      <p2 x="1420" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="500"/>
+      <p2 x="1080" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-120"/>
+      <p2 x="480" y="-120"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="120"/>
+      <p2 x="400" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="840" y="440"/>
+      <p2 x="1040" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="440"/>
+      <p2 x="1640" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="440"/>
+      <p2 x="1280" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="440"/>
+      <p2 x="1940" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="760"/>
+      <p2 x="1540" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1580" y="760"/>
+      <p2 x="1640" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="760"/>
+      <p2 x="1360" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="760"/>
+      <p2 x="940" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="760"/>
+      <p2 x="1440" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-60"/>
+      <p2 x="1800" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-120"/>
+      <p2 x="960" y="-60"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="-60"/>
+      <p2 x="960" y="280"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="720"/>
+      <p2 x="960" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="280"/>
+      <p2 x="960" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="680"/>
+      <p2 x="960" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="140"/>
+      <p2 x="1760" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="160"/>
+      <p2 x="800" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="800" y="300"/>
+      <p2 x="800" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1440" y="40"/>
+      <p2 x="1440" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="900" y="-120"/>
+      <p2 x="900" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="140"/>
+      <p2 x="1060" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="260"/>
+      <p2 x="1060" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="440"/>
+      <p2 x="1640" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="500"/>
+      <p2 x="1640" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="600"/>
+      <p2 x="1640" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1000" y="600"/>
+      <p2 x="1000" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="160"/>
+      <p2 x="1740" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="-120"/>
+      <p2 x="460" y="-20"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="660"/>
+      <p2 x="1360" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="220"/>
+      <p2 x="400" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="120"/>
+      <p2 x="400" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="320"/>
+      <p2 x="400" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="440"/>
+      <p2 x="1040" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="-140"/>
+      <p2 x="340" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="0"/>
+      <p2 x="1300" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="1300" y="680"/>
+      <p2 x="1300" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="-120"/>
+      <p2 x="980" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="980" y="-100"/>
+      <p2 x="980" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-180"/>
+      <p2 x="600" y="-140"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-140"/>
+      <p2 x="600" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="920" y="-120"/>
+      <p2 x="920" y="0"/>
+    </wire>
+    <wire>
+      <p1 x="1880" y="-80"/>
+      <p2 x="1880" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="180"/>
+      <p2 x="1720" y="360"/>
+    </wire>
+    <wire>
+      <p1 x="860" y="-120"/>
+      <p2 x="860" y="-100"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>

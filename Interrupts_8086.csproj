@@ -1,0 +1,67 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+	<PublishSingleFile>true</PublishSingleFile>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <ApplicationIcon>Interrupts_8086.ico</ApplicationIcon>
+    <DebugType>embedded</DebugType>
+    <SignAssembly>False</SignAssembly>
+    <Authors>Daniel Hermes</Authors>
+    <Company>Tesla Automation || DHBW Mannheim</Company>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Optimize>False</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\BillieJean.dig" />
+    <None Remove="Resources\Digital.jar" />
+    <None Remove="Resources\Interruptcontroller.dig" />
+    <None Remove="Resources\IPCS.dig" />
+    <None Remove="Resources\ISR.dig" />
+    <None Remove="Resources\Main_Interruptverarbeitung_8086.dig" />
+    <None Remove="Resources\Misc.dig" />
+    <None Remove="Resources\Offsetadd.dig" />
+    <None Remove="Resources\Prozessor.dig" />
+    <None Remove="Resources\RAM_Control.dig" />
+    <None Remove="Resources\Step_counter.dig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Interrupts_8086.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Resources\BillieJean.dig" />
+    <EmbeddedResource Include="Resources\Digital.jar" />
+    <EmbeddedResource Include="Resources\Interruptcontroller.dig" />
+    <EmbeddedResource Include="Resources\IPCS.dig" />
+    <EmbeddedResource Include="Resources\ISR.dig" />
+    <EmbeddedResource Include="Resources\Main_Interruptverarbeitung_8086.dig" />
+    <EmbeddedResource Include="Resources\Misc.dig" />
+    <EmbeddedResource Include="Resources\Offsetadd.dig" />
+    <EmbeddedResource Include="Resources\Prozessor.dig" />
+    <EmbeddedResource Include="Resources\RAM_Control.dig" />
+    <EmbeddedResource Include="Resources\Step_counter.dig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>PublicResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>

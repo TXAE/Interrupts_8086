@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="utf-8"?>
+<circuit>
+  <version>1</version>
+  <attributes>
+    <entry>
+      <string>backgroundColor</string>
+      <awt-color>
+        <red>0</red>
+        <green>255</green>
+        <blue>0</blue>
+        <alpha>255</alpha>
+      </awt-color>
+    </entry>
+    <entry>
+      <string>Description</string>
+      <string>Dieses Bauteil ist ein Interruptcontroller mit 8 Interrupt-Eingängen.</string>
+    </entry>
+    <entry>
+      <string>Label</string>
+      <string>Interruptcontroller</string>
+    </entry>
+    <entry>
+      <string>Width</string>
+      <int>12</int>
+    </entry>
+  </attributes>
+  <visualElements>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Ein aktives Interrupt-Acknowledge-Signal mit niedrigem Pegel (daher das &apos;!&apos;) bestätigt die Annahme eines
+Hardware-Interrupts. Wird in Schritt 3 auf LOW gezogen.</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>INTA!</string>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="1" z="false"/>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INT 0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INT 1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INT 2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INT 3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INT 4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INT 5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INT 6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>PriorityEncoder</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Encoder</string>
+        </entry>
+      </elementAttributes>
+      <pos x="580" y="400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>In</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INT 7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>DriverInvSel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1660" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>3,13</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>16</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>13</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1440" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Decoder</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>flipSelPos</string>
+          <boolean>true</boolean>
+        </entry>
+      </elementAttributes>
+      <pos x="1560" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes/>
+      <pos x="1680" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>INTR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>4,3</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>0</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="740" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>MIDI</elementName>
+      <elementAttributes>
+        <entry>
+          <string>midiInstrument</string>
+          <string>Xylophone   </string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Sound when Interrupt was selected</string>
+        </entry>
+        <entry>
+          <string>midiChannel</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes/>
+      <pos x="960" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>268435455</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>INTA! is pulled low on Step 3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>13</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>On Step 3: 
+Output INTR Number 
+to Data Bus</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1600" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Description</string>
+          <string>Datenbus</string>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>DB</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>hex</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="640"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="680"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="760"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="800"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="840"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>EN</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1800" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>13</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>AND so that 0 isn&apos;t put out when
+no Interrupt was selected yet</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1660" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>D_FF</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SAVE INTR Number</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1080" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>13</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Expand 3Bit INTR Number
+to 16Bit for Data Bus</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1360" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RS_FF_AS</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SAVE INTR</string>
+        </entry>
+        <entry>
+          <string>inverterConfig</string>
+          <inverterConfig>
+            <string>R</string>
+          </inverterConfig>
+        </entry>
+      </elementAttributes>
+      <pos x="1400" y="420"/>
+    </visualElement>
+    <visualElement>
+      <elementName>RS_FF_AS</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>SAVE EN</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1500" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Ground</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+      </elementAttributes>
+      <pos x="1500" y="560"/>
+    </visualElement>
+  </visualElements>
+  <wires>
+    <wire>
+      <p1 x="1320" y="320"/>
+      <p2 x="1660" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="640"/>
+      <p2 x="1660" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="640"/>
+      <p2 x="1800" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="1660" y="580"/>
+      <p2 x="1680" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="580"/>
+      <p2 x="520" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="260"/>
+      <p2 x="540" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="260"/>
+      <p2 x="1080" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="520"/>
+      <p2 x="580" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="840"/>
+      <p2 x="1800" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="460"/>
+      <p2 x="580" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1620" y="460"/>
+      <p2 x="1800" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="780"/>
+      <p2 x="1740" y="780"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="400"/>
+      <p2 x="580" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="400"/>
+      <p2 x="700" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="760" y="80"/>
+      <p2 x="960" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="720"/>
+      <p2 x="1800" y="720"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="660"/>
+      <p2 x="1740" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="660"/>
+      <p2 x="540" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="340"/>
+      <p2 x="520" y="340"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="600"/>
+      <p2 x="1580" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="600"/>
+      <p2 x="1800" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="540"/>
+      <p2 x="580" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="540"/>
+      <p2 x="1500" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1560" y="540"/>
+      <p2 x="1620" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="1620" y="540"/>
+      <p2 x="1680" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="480"/>
+      <p2 x="580" y="480"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="160"/>
+      <p2 x="960" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="800"/>
+      <p2 x="1800" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="420"/>
+      <p2 x="1800" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="420"/>
+      <p2 x="500" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="420"/>
+      <p2 x="580" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="660" y="420"/>
+      <p2 x="880" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="420"/>
+      <p2 x="1400" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="100"/>
+      <p2 x="740" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="740"/>
+      <p2 x="1780" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="740"/>
+      <p2 x="560" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="680"/>
+      <p2 x="1760" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1780" y="680"/>
+      <p2 x="1800" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="240"/>
+      <p2 x="1220" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="240"/>
+      <p2 x="1080" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1680" y="240"/>
+      <p2 x="1800" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1460" y="240"/>
+      <p2 x="1640" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="240"/>
+      <p2 x="1440" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="560"/>
+      <p2 x="1800" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="820"/>
+      <p2 x="1320" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="180"/>
+      <p2 x="560" y="180"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="500"/>
+      <p2 x="500" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="500"/>
+      <p2 x="580" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="440"/>
+      <p2 x="580" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="440"/>
+      <p2 x="1380" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="760"/>
+      <p2 x="1760" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1780" y="760"/>
+      <p2 x="1800" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="700"/>
+      <p2 x="1780" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="640"/>
+      <p2 x="1760" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="760"/>
+      <p2 x="1760" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="120"/>
+      <p2 x="960" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="1220" y="240"/>
+      <p2 x="1220" y="600"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="340"/>
+      <p2 x="520" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="500"/>
+      <p2 x="520" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="320"/>
+      <p2 x="1320" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1320" y="440"/>
+      <p2 x="1320" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="600"/>
+      <p2 x="1740" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="1740" y="780"/>
+      <p2 x="1740" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="1580" y="600"/>
+      <p2 x="1580" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="160"/>
+      <p2 x="880" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="420"/>
+      <p2 x="880" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="880" y="260"/>
+      <p2 x="880" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="180"/>
+      <p2 x="560" y="400"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="540"/>
+      <p2 x="560" y="740"/>
+    </wire>
+    <wire>
+      <p1 x="1620" y="460"/>
+      <p2 x="1620" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="420"/>
+      <p2 x="500" y="460"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="480"/>
+      <p2 x="500" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="1780" y="680"/>
+      <p2 x="1780" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="1780" y="740"/>
+      <p2 x="1780" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1660" y="260"/>
+      <p2 x="1660" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1660" y="580"/>
+      <p2 x="1660" y="640"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="260"/>
+      <p2 x="540" y="420"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="520"/>
+      <p2 x="540" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="100"/>
+      <p2 x="700" y="240"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="240"/>
+      <p2 x="700" y="400"/>
+    </wire>
+  </wires>
+  <measurementOrdering/>
+</circuit>
