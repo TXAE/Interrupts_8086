@@ -8,15 +8,15 @@
     <Nullable>enable</Nullable>
     <ApplicationIcon>Interrupts_8086.ico</ApplicationIcon>
     <DebugType>embedded</DebugType>
-    <SignAssembly>False</SignAssembly>
+    <SignAssembly>True</SignAssembly>
     <Authors>Daniel Hermes</Authors>
     <Company>Tesla Automation || DHBW Mannheim</Company>
     <PackageProjectUrl>https://github.com/TXAE/Interrupts_8086</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/TXAE/Interrupts_8086</RepositoryUrl>
     <PackageTags>Digital</PackageTags>
-    <Description>Simulates interrupt handling of the Intel 8086 chip within Digital.
-Builds on previous work by Silas Gerhard.</Description>
+    <Description>Simulates interrupt handling of the Intel 8086 chip within Digital</Description>
+    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -29,6 +29,7 @@ Builds on previous work by Silas Gerhard.</Description>
     <None Remove="Resources\Interruptcontroller.dig" />
     <None Remove="Resources\IPCS.dig" />
     <None Remove="Resources\ISR.dig" />
+    <None Remove="Resources\IVT.hex" />
     <None Remove="Resources\Main_Interruptverarbeitung_8086.dig" />
     <None Remove="Resources\Misc.dig" />
     <None Remove="Resources\Offsetadd.dig" />
@@ -47,6 +48,7 @@ Builds on previous work by Silas Gerhard.</Description>
     <EmbeddedResource Include="Resources\Interruptcontroller.dig" />
     <EmbeddedResource Include="Resources\IPCS.dig" />
     <EmbeddedResource Include="Resources\ISR.dig" />
+    <EmbeddedResource Include="Resources\IVT.hex" />
     <EmbeddedResource Include="Resources\Main_Interruptverarbeitung_8086.dig" />
     <EmbeddedResource Include="Resources\Misc.dig" />
     <EmbeddedResource Include="Resources\Offsetadd.dig" />

@@ -4,14 +4,21 @@ using System.Reflection;
 Directory.CreateDirectory("Embedded_Circuits");
 
 //extract assemblies
-string[] assemblyNames = Assembly.GetExecutingAssembly().GetManifestResourceNames();
-foreach (string assemblyName in assemblyNames)
+string[] resourceNames = Assembly.GetExecutingAssembly().GetManifestResourceNames();
+foreach (string resourceName in resourceNames)
 {
-    if (assemblyName.Contains("Properties")) continue;
-    var assembly = Assembly.GetExecutingAssembly().GetManifestResourceStream(assemblyName);
-    string fileName = assemblyName.Replace("Interrupts_8086.Resources.", "");
-    var file = new FileStream("Embedded_Circuits\\" + fileName, FileMode.Create, FileAccess.Write);
-    assembly.CopyTo(file);
+    if (resourceName.Contains("Properties")) continue;
+
+    //has to be using! Will not work on some seemingly random files without using!
+    using (var resource = Assembly.GetExecutingAssembly().GetManifestResourceStream(resourceName))
+    {
+        string fileName = resourceName.Replace("Interrupts_8086.Resources.", "");
+        using (var file = new FileStream("Embedded_Circuits\\" + fileName, FileMode.Create, FileAccess.Write))
+        {
+            resource.CopyTo(file);
+        }
+    }
+
 }
 
 Console.Write("Java Version: ");
