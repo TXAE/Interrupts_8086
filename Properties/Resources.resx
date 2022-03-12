@@ -133,6 +133,9 @@
   <data name="ISR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ISR.dig;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="IVT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\IVT.hex;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="Main_Interruptverarbeitung_8086" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Main_Interruptverarbeitung_8086.dig;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>

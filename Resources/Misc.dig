@@ -93,7 +93,7 @@
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="660" y="140"/>
+      <pos x="660" y="100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -107,7 +107,7 @@
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="160"/>
+      <pos x="660" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -121,7 +121,7 @@
           <string>D4</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="120"/>
+      <pos x="660" y="80"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -202,7 +202,7 @@
     <visualElement>
       <elementName>Or</elementName>
       <elementAttributes/>
-      <pos x="-220" y="-160"/>
+      <pos x="-220" y="-120"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -216,7 +216,7 @@
           <int>20</int>
         </entry>
       </elementAttributes>
-      <pos x="700" y="400"/>
+      <pos x="840" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -230,7 +230,7 @@
           <string>AB</string>
         </entry>
       </elementAttributes>
-      <pos x="700" y="420"/>
+      <pos x="840" y="420"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -244,7 +244,7 @@
           <string>A6</string>
         </entry>
       </elementAttributes>
-      <pos x="700" y="380"/>
+      <pos x="840" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -281,98 +281,6 @@
       <pos x="620" y="480"/>
     </visualElement>
     <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>20</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="340" y="400"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>A10</string>
-        </entry>
-      </elementAttributes>
-      <pos x="340" y="380"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>AB</string>
-        </entry>
-      </elementAttributes>
-      <pos x="340" y="420"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-        <entry>
-          <string>flipSelPos</string>
-          <boolean>true</boolean>
-        </entry>
-      </elementAttributes>
-      <pos x="400" y="320"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>D10</string>
-        </entry>
-      </elementAttributes>
-      <pos x="400" y="300"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>DB</string>
-        </entry>
-      </elementAttributes>
-      <pos x="400" y="340"/>
-    </visualElement>
-    <visualElement>
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
@@ -385,11 +293,10 @@
         </entry>
         <entry>
           <string>Description</string>
-          <string>Step 1&amp;2: PUSH IP &amp; CS
-Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
+          <string>Step 1&amp;2: PUSH IP &amp; CS</string>
         </entry>
       </elementAttributes>
-      <pos x="300" y="-160"/>
+      <pos x="440" y="-140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -422,14 +329,8 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>Bits</string>
           <int>3</int>
         </entry>
-        <entry>
-          <string>inverterConfig</string>
-          <inverterConfig>
-            <string>clr</string>
-          </inverterConfig>
-        </entry>
       </elementAttributes>
-      <pos x="160" y="600"/>
+      <pos x="120" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -443,7 +344,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>0.78125Hz</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="620"/>
+      <pos x="120" y="720"/>
     </visualElement>
     <visualElement>
       <elementName>Decoder</elementName>
@@ -457,7 +358,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="600" y="580"/>
+      <pos x="440" y="680"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -471,7 +372,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="680" y="660"/>
+      <pos x="520" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -485,7 +386,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="680" y="680"/>
+      <pos x="520" y="780"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -499,7 +400,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D22</string>
         </entry>
       </elementAttributes>
-      <pos x="680" y="640"/>
+      <pos x="520" y="740"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -513,7 +414,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="640" y="740"/>
+      <pos x="480" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -527,7 +428,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="640" y="760"/>
+      <pos x="480" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -541,7 +442,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D24</string>
         </entry>
       </elementAttributes>
-      <pos x="640" y="720"/>
+      <pos x="480" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -555,7 +456,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="600" y="820"/>
+      <pos x="440" y="920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -569,7 +470,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="840"/>
+      <pos x="440" y="940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -583,7 +484,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D6</string>
         </entry>
       </elementAttributes>
-      <pos x="600" y="800"/>
+      <pos x="440" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -597,7 +498,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="560" y="920"/>
+      <pos x="400" y="1080"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -611,7 +512,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="560" y="940"/>
+      <pos x="400" y="1100"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -625,41 +526,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D4</string>
         </entry>
       </elementAttributes>
-      <pos x="560" y="900"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="500" y="1020"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>DB</string>
-        </entry>
-      </elementAttributes>
-      <pos x="480" y="1020"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>NetName</string>
-          <string>D2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="520" y="1020"/>
+      <pos x="400" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -677,7 +544,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>Step 3: Output INTR Number to Data Bus</string>
         </entry>
       </elementAttributes>
-      <pos x="300" y="560"/>
+      <pos x="280" y="660"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -689,6 +556,14 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
         <entry>
           <string>Bits</string>
           <int>16</int>
+        </entry>
+        <entry>
+          <string>isHighZ</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="0" z="true"/>
         </entry>
       </elementAttributes>
       <pos x="-180" y="260"/>
@@ -703,6 +578,14 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
         <entry>
           <string>Bits</string>
           <int>20</int>
+        </entry>
+        <entry>
+          <string>isHighZ</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>InDefault</string>
+          <value v="0" z="true"/>
         </entry>
       </elementAttributes>
       <pos x="-180" y="340"/>
@@ -719,7 +602,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S1</string>
         </entry>
       </elementAttributes>
-      <pos x="-220" y="-160"/>
+      <pos x="-220" y="-120"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -733,7 +616,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S2</string>
         </entry>
       </elementAttributes>
-      <pos x="-220" y="-120"/>
+      <pos x="-220" y="-80"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -747,35 +630,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S3</string>
         </entry>
       </elementAttributes>
-      <pos x="0" y="620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>CounterPreset</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>1Hz Clk counter</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="-100"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>0.78125Hz</string>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="-80"/>
+      <pos x="120" y="700"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -785,7 +640,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>Next</string>
         </entry>
       </elementAttributes>
-      <pos x="-180" y="60"/>
+      <pos x="-180" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -795,78 +650,21 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>Prev</string>
         </entry>
       </elementAttributes>
-      <pos x="-180" y="100"/>
+      <pos x="-180" y="60"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
       <elementAttributes/>
-      <pos x="-120" y="60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes/>
-      <pos x="-220" y="-80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-220" y="-80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S5</string>
-        </entry>
-      </elementAttributes>
-      <pos x="-220" y="-40"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>3</int>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="-40"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-      </elementAttributes>
-      <pos x="120" y="-20"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Or</elementName>
-      <elementAttributes/>
-      <pos x="-60" y="-120"/>
+      <pos x="-120" y="20"/>
     </visualElement>
     <visualElement>
       <elementName>RS_FF_AS</elementName>
-      <elementAttributes/>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Reset_Clkcounter</string>
+        </entry>
+      </elementAttributes>
       <pos x="20" y="80"/>
     </visualElement>
     <visualElement>
@@ -878,10 +676,10 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>D0</string>
+          <string>D0_S12</string>
         </entry>
       </elementAttributes>
-      <pos x="20" y="100"/>
+      <pos x="-120" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -890,8 +688,12 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
       </elementAttributes>
-      <pos x="540" y="-40"/>
+      <pos x="560" y="-40"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -905,7 +707,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="340" y="140"/>
+      <pos x="360" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -919,7 +721,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="340" y="120"/>
+      <pos x="360" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -933,7 +735,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D2</string>
         </entry>
       </elementAttributes>
-      <pos x="340" y="160"/>
+      <pos x="360" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -944,7 +746,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
         </entry>
         <entry>
           <string>NetName</string>
-          <string>D0</string>
+          <string>D0_S12</string>
         </entry>
       </elementAttributes>
       <pos x="660" y="-80"/>
@@ -961,7 +763,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="380" y="160"/>
+      <pos x="400" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -975,7 +777,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="140"/>
+      <pos x="400" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -989,7 +791,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D4</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="180"/>
+      <pos x="400" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1003,7 +805,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="420" y="180"/>
+      <pos x="440" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1017,7 +819,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="420" y="160"/>
+      <pos x="440" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1031,7 +833,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D6</string>
         </entry>
       </elementAttributes>
-      <pos x="420" y="200"/>
+      <pos x="440" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1045,7 +847,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="460" y="200"/>
+      <pos x="480" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1059,7 +861,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="460" y="180"/>
+      <pos x="480" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1073,7 +875,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D8</string>
         </entry>
       </elementAttributes>
-      <pos x="460" y="220"/>
+      <pos x="480" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1087,7 +889,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="500" y="220"/>
+      <pos x="520" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1101,7 +903,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="500" y="200"/>
+      <pos x="520" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1115,7 +917,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D10</string>
         </entry>
       </elementAttributes>
-      <pos x="500" y="240"/>
+      <pos x="520" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -1126,7 +928,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
         </entry>
         <entry>
           <string>Bits</string>
-          <int>3</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
       <pos x="-180" y="420"/>
@@ -1136,14 +938,14 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Selector Bits</string>
-          <int>3</int>
+          <int>4</int>
         </entry>
         <entry>
           <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
       </elementAttributes>
-      <pos x="-40" y="400"/>
+      <pos x="120" y="400"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1157,7 +959,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S1</string>
         </entry>
       </elementAttributes>
-      <pos x="-60" y="440"/>
+      <pos x="100" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1171,7 +973,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S2</string>
         </entry>
       </elementAttributes>
-      <pos x="-80" y="440"/>
+      <pos x="80" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1185,7 +987,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S3</string>
         </entry>
       </elementAttributes>
-      <pos x="-100" y="440"/>
+      <pos x="60" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1199,7 +1001,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S4</string>
         </entry>
       </elementAttributes>
-      <pos x="-120" y="440"/>
+      <pos x="40" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1213,7 +1015,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S5</string>
         </entry>
       </elementAttributes>
-      <pos x="-140" y="440"/>
+      <pos x="20" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1227,7 +1029,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S6</string>
         </entry>
       </elementAttributes>
-      <pos x="-160" y="440"/>
+      <pos x="0" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1241,7 +1043,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S7</string>
         </entry>
       </elementAttributes>
-      <pos x="-180" y="440"/>
+      <pos x="-20" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1255,7 +1057,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S0</string>
         </entry>
       </elementAttributes>
-      <pos x="-40" y="440"/>
+      <pos x="120" y="440"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1269,7 +1071,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>20</int>
         </entry>
       </elementAttributes>
-      <pos x="260" y="180"/>
+      <pos x="280" y="180"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1283,7 +1085,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>AB</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="160"/>
+      <pos x="280" y="160"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1297,7 +1099,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>A6</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="200"/>
+      <pos x="280" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1311,7 +1113,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>20</int>
         </entry>
       </elementAttributes>
-      <pos x="220" y="220"/>
+      <pos x="240" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1325,7 +1127,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>AB</string>
         </entry>
       </elementAttributes>
-      <pos x="220" y="200"/>
+      <pos x="240" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1339,7 +1141,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>A8</string>
         </entry>
       </elementAttributes>
-      <pos x="220" y="240"/>
+      <pos x="240" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1353,7 +1155,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>20</int>
         </entry>
       </elementAttributes>
-      <pos x="180" y="260"/>
+      <pos x="200" y="260"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1367,7 +1169,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>AB</string>
         </entry>
       </elementAttributes>
-      <pos x="180" y="240"/>
+      <pos x="200" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1381,7 +1183,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>A10</string>
         </entry>
       </elementAttributes>
-      <pos x="180" y="280"/>
+      <pos x="200" y="280"/>
     </visualElement>
     <visualElement>
       <elementName>Or</elementName>
@@ -1390,8 +1192,12 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>rotation</string>
           <rotation rotation="3"/>
         </entry>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
       </elementAttributes>
-      <pos x="480" y="660"/>
+      <pos x="340" y="760"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1405,7 +1211,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="220" y="840"/>
+      <pos x="60" y="940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1419,7 +1225,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="220" y="820"/>
+      <pos x="60" y="920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1433,7 +1239,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D2</string>
         </entry>
       </elementAttributes>
-      <pos x="220" y="860"/>
+      <pos x="60" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1447,7 +1253,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="260" y="860"/>
+      <pos x="100" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1461,7 +1267,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="840"/>
+      <pos x="100" y="940"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1475,7 +1281,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D4</string>
         </entry>
       </elementAttributes>
-      <pos x="260" y="880"/>
+      <pos x="100" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1489,7 +1295,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="300" y="880"/>
+      <pos x="140" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1503,7 +1309,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="300" y="860"/>
+      <pos x="140" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1517,7 +1323,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D6</string>
         </entry>
       </elementAttributes>
-      <pos x="300" y="900"/>
+      <pos x="140" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1531,7 +1337,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="340" y="900"/>
+      <pos x="180" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1545,7 +1351,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="340" y="880"/>
+      <pos x="180" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1559,7 +1365,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D22</string>
         </entry>
       </elementAttributes>
-      <pos x="340" y="920"/>
+      <pos x="180" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -1573,7 +1379,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="380" y="920"/>
+      <pos x="220" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1587,7 +1393,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="900"/>
+      <pos x="220" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1601,7 +1407,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D24</string>
         </entry>
       </elementAttributes>
-      <pos x="380" y="940"/>
+      <pos x="220" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -1622,7 +1428,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D25</string>
+          <string>D2</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1650,7 +1456,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D27</string>
+          <string>D4</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1678,7 +1484,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D29</string>
+          <string>D6</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1706,7 +1512,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D31</string>
+          <string>D8</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1734,7 +1540,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D33</string>
+          <string>D10</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1762,7 +1568,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D45</string>
+          <string>D22</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1790,7 +1596,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>D47</string>
+          <string>D24</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -1798,198 +1604,6 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
         </entry>
       </elementAttributes>
       <pos x="1680" y="780"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S1</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="780"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S2</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S3</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="660"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S5</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S6</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S7</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>S0</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="820"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>S15</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="540"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>S14</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="580"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>S13</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>S12</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="660"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>S11</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="700"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>S10</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="740"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>S9</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="780"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>S8</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1460" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Clock</elementName>
@@ -2028,7 +1642,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>A11</string>
+          <string>A6</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2056,7 +1670,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>A13</string>
+          <string>A8</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2084,7 +1698,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>A15</string>
+          <string>A10</string>
         </entry>
         <entry>
           <string>Bits</string>
@@ -2158,7 +1772,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="960" y="960"/>
+      <pos x="1100" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Splitter</elementName>
@@ -2172,7 +1786,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>3,13</string>
         </entry>
       </elementAttributes>
-      <pos x="1000" y="960"/>
+      <pos x="1140" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2611,14 +2225,14 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Save InterruptNr on Step 3 (no change in Step 3)</string>
+          <string>Read InterruptNr in Step 3</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>3</int>
         </entry>
       </elementAttributes>
-      <pos x="1220" y="960"/>
+      <pos x="1320" y="960"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2632,7 +2246,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>S3</string>
         </entry>
       </elementAttributes>
-      <pos x="1220" y="980"/>
+      <pos x="1320" y="980"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2660,7 +2274,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="740" y="720"/>
+      <pos x="580" y="820"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2674,7 +2288,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="740" y="740"/>
+      <pos x="580" y="840"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2688,7 +2302,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D22</string>
         </entry>
       </elementAttributes>
-      <pos x="740" y="700"/>
+      <pos x="580" y="800"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -2702,7 +2316,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="700" y="800"/>
+      <pos x="540" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2716,7 +2330,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="700" y="820"/>
+      <pos x="540" y="920"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2730,7 +2344,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D24</string>
         </entry>
       </elementAttributes>
-      <pos x="700" y="780"/>
+      <pos x="540" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -2744,7 +2358,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="800" y="780"/>
+      <pos x="640" y="880"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2758,7 +2372,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="800" y="800"/>
+      <pos x="640" y="900"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2772,7 +2386,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D22</string>
         </entry>
       </elementAttributes>
-      <pos x="800" y="760"/>
+      <pos x="640" y="860"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -2786,7 +2400,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="660" y="900"/>
+      <pos x="500" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2800,7 +2414,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="920"/>
+      <pos x="500" y="1080"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2814,7 +2428,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D6</string>
         </entry>
       </elementAttributes>
-      <pos x="660" y="880"/>
+      <pos x="500" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Driver</elementName>
@@ -2828,7 +2442,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="760" y="880"/>
+      <pos x="600" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2842,7 +2456,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="760" y="900"/>
+      <pos x="600" y="1060"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2854,95 +2468,11 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
         <entry>
           <string>NetName</string>
           <string>D24</string>
-        </entry>
-      </elementAttributes>
-      <pos x="760" y="860"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="860" y="860"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>DB</string>
-        </entry>
-      </elementAttributes>
-      <pos x="860" y="880"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>D22</string>
-        </entry>
-      </elementAttributes>
-      <pos x="860" y="840"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="600" y="1000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>DB</string>
         </entry>
       </elementAttributes>
       <pos x="600" y="1020"/>
     </visualElement>
     <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>D4</string>
-        </entry>
-      </elementAttributes>
-      <pos x="600" y="980"/>
-    </visualElement>
-    <visualElement>
       <elementName>Driver</elementName>
       <elementAttributes>
         <entry>
@@ -2954,7 +2484,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>16</int>
         </entry>
       </elementAttributes>
-      <pos x="700" y="980"/>
+      <pos x="700" y="1020"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -2968,91 +2498,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>DB</string>
         </entry>
       </elementAttributes>
-      <pos x="700" y="1000"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>D6</string>
-        </entry>
-      </elementAttributes>
-      <pos x="700" y="960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="800" y="960"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>DB</string>
-        </entry>
-      </elementAttributes>
-      <pos x="800" y="980"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>D24</string>
-        </entry>
-      </elementAttributes>
-      <pos x="800" y="940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Driver</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="1"/>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="900" y="940"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Tunnel</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="3"/>
-        </entry>
-        <entry>
-          <string>NetName</string>
-          <string>DB</string>
-        </entry>
-      </elementAttributes>
-      <pos x="900" y="960"/>
+      <pos x="700" y="1040"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3066,7 +2512,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <string>D22</string>
         </entry>
       </elementAttributes>
-      <pos x="900" y="920"/>
+      <pos x="700" y="1000"/>
     </visualElement>
     <visualElement>
       <elementName>ISR.dig</elementName>
@@ -3129,39 +2575,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
     <visualElement>
       <elementName>Step_counter.dig</elementName>
       <elementAttributes/>
-      <pos x="1160" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Splitter</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Input Splitting</string>
-          <string>4,3</string>
-        </entry>
-        <entry>
-          <string>Output Splitting</string>
-          <string>7</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1340" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Const</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Value</string>
-          <long>0</long>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>4</int>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>hex</intFormat>
-        </entry>
-      </elementAttributes>
-      <pos x="1340" y="200"/>
+      <pos x="1100" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -3175,7 +2589,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="220"/>
+      <pos x="1580" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
@@ -3185,21 +2599,21 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
           <long>0</long>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="240"/>
+      <pos x="1580" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>Add</elementName>
       <elementAttributes>
         <entry>
           <string>Label</string>
-          <string>Standard Volume is middle 0x36</string>
+          <string>Standard Volume is middle 0x30</string>
         </entry>
         <entry>
           <string>Bits</string>
           <int>7</int>
         </entry>
       </elementAttributes>
-      <pos x="1460" y="200"/>
+      <pos x="1580" y="200"/>
     </visualElement>
     <visualElement>
       <elementName>Comparator</elementName>
@@ -3276,7 +2690,7 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
     <visualElement>
       <elementName>Not</elementName>
       <elementAttributes/>
-      <pos x="1820" y="60"/>
+      <pos x="1040" y="0"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -3295,17 +2709,17 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
-      <pos x="1040" y="120"/>
+      <pos x="980" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>And</elementName>
       <elementAttributes/>
-      <pos x="1040" y="220"/>
+      <pos x="980" y="220"/>
     </visualElement>
     <visualElement>
       <elementName>Const</elementName>
       <elementAttributes/>
-      <pos x="1160" y="240"/>
+      <pos x="1100" y="240"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -3317,67 +2731,1280 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       </elementAttributes>
       <pos x="960" y="0"/>
     </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>D2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="20"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="280"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>D4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="200"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="1"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>D2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="180"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="700" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>AB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="680" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>A6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="720" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="320" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>D2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="340" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>D4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="560"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="400" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="380" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>D6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="420" y="520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Const</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Value</string>
+          <long>10</long>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+        <entry>
+          <string>intFormat</string>
+          <intFormat>dec</intFormat>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="260"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Mul</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1300" y="220"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Splitter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Input Splitting</string>
+          <string>8</string>
+        </entry>
+        <entry>
+          <string>Output Splitting</string>
+          <string>7,1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1400" y="240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Decoder</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Selector Bits</string>
+          <int>3</int>
+        </entry>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="-980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1740" y="-880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="-880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>D10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1760" y="-880"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>D0_S45</string>
+        </entry>
+      </elementAttributes>
+      <pos x="640" y="-940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1740" y="-820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>AB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1720" y="-820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>A10</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1760" y="-820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>7</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1580" y="-900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>6</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1320" y="-740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="-660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="-660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>D8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1500" y="-660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1480" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>AB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>A8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1500" y="-600"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>5</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1020" y="-580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="-520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="-520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>D6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="-520"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>20</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1180" y="-460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>AB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="-460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>A6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1200" y="-460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="-460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="940" y="-400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="920" y="-400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>D4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="960" y="-400"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="620" y="-340"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Driver</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Bits</string>
+          <int>16</int>
+        </entry>
+      </elementAttributes>
+      <pos x="780" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>DB</string>
+        </entry>
+      </elementAttributes>
+      <pos x="760" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>D2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="800" y="-300"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textOrientation</string>
+          <de.neemann.digital.draw.graphics.Orientation>LEFTCENTER</de.neemann.digital.draw.graphics.Orientation>
+        </entry>
+        <entry>
+          <string>textFontSize</string>
+          <int>23</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle
+Step 7&amp;8: POP CS &amp; IP</string>
+        </entry>
+      </elementAttributes>
+      <pos x="360" y="-1020"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>0.78125Hz</string>
+        </entry>
+      </elementAttributes>
+      <pos x="100" y="-940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>4</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-240" y="-1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-240" y="-1000"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-240" y="-980"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Counter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clock counter</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="-100"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>0.78125Hz</string>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="-80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Counter</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>Clock counter</string>
+        </entry>
+        <entry>
+          <string>Bits</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="100" y="-960"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="460"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="500"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-40" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-60" y="440"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>D0_S45</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="160"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textOrientation</string>
+          <de.neemann.digital.draw.graphics.Orientation>LEFTCENTER</de.neemann.digital.draw.graphics.Orientation>
+        </entry>
+        <entry>
+          <string>textFontSize</string>
+          <int>23</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>These two do the same thing.
+Lower design better!?</string>
+        </entry>
+      </elementAttributes>
+      <pos x="300" y="-240"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="540"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S6</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="580"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S5</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="620"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S4</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="660"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="700"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S2</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S1</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="780"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Out</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Label</string>
+          <string>S0</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1460" y="820"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="3"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>D0_S3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="440" y="720"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>D0_S3</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="140"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>Reset_ClkCounter</string>
+        </entry>
+      </elementAttributes>
+      <pos x="240" y="-60"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>Reset_ClkCounter</string>
+        </entry>
+      </elementAttributes>
+      <pos x="100" y="-920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>Reset_ClkCounter</string>
+        </entry>
+      </elementAttributes>
+      <pos x="120" y="740"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>NetName</string>
+          <string>Reset_ClkCounter</string>
+        </entry>
+      </elementAttributes>
+      <pos x="80" y="80"/>
+    </visualElement>
+    <visualElement>
+      <elementName>And</elementName>
+      <elementAttributes>
+        <entry>
+          <string>Inputs</string>
+          <int>3</int>
+        </entry>
+      </elementAttributes>
+      <pos x="-120" y="120"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Rectangle</elementName>
+      <elementAttributes>
+        <entry>
+          <string>RectHeight</string>
+          <int>29</int>
+        </entry>
+        <entry>
+          <string>Label</string>
+          <string>Set Clk_ISR</string>
+        </entry>
+        <entry>
+          <string>RectWidth</string>
+          <int>45</int>
+        </entry>
+      </elementAttributes>
+      <pos x="1040" y="900"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textOrientation</string>
+          <de.neemann.digital.draw.graphics.Orientation>LEFTCENTER</de.neemann.digital.draw.graphics.Orientation>
+        </entry>
+        <entry>
+          <string>textFontSize</string>
+          <int>23</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Set Clk_ISR</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1580" y="920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S7</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-240" y="-940"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S8</string>
+        </entry>
+      </elementAttributes>
+      <pos x="-240" y="-920"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Or</elementName>
+      <elementAttributes/>
+      <pos x="1160" y="-40"/>
+    </visualElement>
+    <visualElement>
+      <elementName>Tunnel</elementName>
+      <elementAttributes>
+        <entry>
+          <string>rotation</string>
+          <rotation rotation="2"/>
+        </entry>
+        <entry>
+          <string>NetName</string>
+          <string>S9</string>
+        </entry>
+      </elementAttributes>
+      <pos x="1160" y="-40"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
-      <p1 x="20" y="640"/>
-      <p2 x="140" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="640"/>
-      <p2 x="460" y="640"/>
-    </wire>
-    <wire>
-      <p1 x="100" y="0"/>
-      <p2 x="120" y="0"/>
-    </wire>
-    <wire>
       <p1 x="960" y="0"/>
-      <p2 x="1720" y="0"/>
+      <p2 x="1040" y="0"/>
     </wire>
     <wire>
-      <p1 x="600" y="320"/>
-      <p2 x="620" y="320"/>
+      <p1 x="1080" y="0"/>
+      <p2 x="1160" y="0"/>
     </wire>
     <wire>
-      <p1 x="420" y="320"/>
-      <p2 x="560" y="320"/>
+      <p1 x="620" y="-900"/>
+      <p2 x="1580" y="-900"/>
     </wire>
     <wire>
-      <p1 x="1020" y="960"/>
-      <p2 x="1220" y="960"/>
+      <p1 x="1660" y="-900"/>
+      <p2 x="1740" y="-900"/>
     </wire>
     <wire>
-      <p1 x="960" y="960"/>
-      <p2 x="1000" y="960"/>
+      <p1 x="960" y="260"/>
+      <p2 x="980" y="260"/>
     </wire>
     <wire>
-      <p1 x="1280" y="960"/>
-      <p2 x="1560" y="960"/>
+      <p1 x="600" y="260"/>
+      <p2 x="680" y="260"/>
     </wire>
     <wire>
-      <p1 x="500" y="960"/>
-      <p2 x="760" y="960"/>
+      <p1 x="380" y="900"/>
+      <p2 x="520" y="900"/>
     </wire>
     <wire>
-      <p1 x="760" y="960"/>
-      <p2 x="780" y="960"/>
-    </wire>
-    <wire>
-      <p1 x="520" y="900"/>
-      <p2 x="640" y="900"/>
-    </wire>
-    <wire>
-      <p1 x="1040" y="580"/>
-      <p2 x="1060" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="1060" y="580"/>
-      <p2 x="1080" y="580"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="260"/>
-      <p2 x="1040" y="260"/>
+      <p1 x="520" y="-520"/>
+      <p2 x="1020" y="-520"/>
     </wire>
     <wire>
       <p1 x="1680" y="1160"/>
@@ -3388,120 +4015,68 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <p2 x="1580" y="1160"/>
     </wire>
     <wire>
-      <p1 x="1360" y="200"/>
-      <p2 x="1460" y="200"/>
+      <p1 x="500" y="-780"/>
+      <p2 x="1580" y="-780"/>
     </wire>
     <wire>
-      <p1 x="1520" y="200"/>
-      <p2 x="1720" y="200"/>
+      <p1 x="1040" y="140"/>
+      <p2 x="1060" y="140"/>
     </wire>
     <wire>
-      <p1 x="1120" y="200"/>
-      <p2 x="1160" y="200"/>
+      <p1 x="-60" y="140"/>
+      <p2 x="-40" y="140"/>
     </wire>
     <wire>
-      <p1 x="1720" y="200"/>
-      <p2 x="1860" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="-160" y="-140"/>
-      <p2 x="-100" y="-140"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="140"/>
-      <p2 x="640" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="1100" y="140"/>
-      <p2 x="1120" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="780"/>
-      <p2 x="780" y="780"/>
-    </wire>
-    <wire>
-      <p1 x="-100" y="-80"/>
-      <p2 x="-60" y="-80"/>
+      <p1 x="520" y="-400"/>
+      <p2 x="780" y="-400"/>
     </wire>
     <wire>
       <p1 x="600" y="400"/>
-      <p2 x="680" y="400"/>
+      <p2 x="820" y="400"/>
     </wire>
     <wire>
-      <p1 x="360" y="400"/>
-      <p2 x="560" y="400"/>
+      <p1 x="360" y="1040"/>
+      <p2 x="580" y="1040"/>
     </wire>
     <wire>
-      <p1 x="1520" y="80"/>
-      <p2 x="1720" y="80"/>
+      <p1 x="540" y="-660"/>
+      <p2 x="1320" y="-660"/>
     </wire>
     <wire>
-      <p1 x="-60" y="80"/>
-      <p2 x="20" y="80"/>
+      <p1 x="1220" y="-20"/>
+      <p2 x="1760" y="-20"/>
     </wire>
     <wire>
-      <p1 x="80" y="80"/>
-      <p2 x="100" y="80"/>
+      <p1 x="-180" y="20"/>
+      <p2 x="-120" y="20"/>
     </wire>
     <wire>
-      <p1 x="1720" y="80"/>
-      <p2 x="1860" y="80"/>
+      <p1 x="380" y="920"/>
+      <p2 x="420" y="920"/>
     </wire>
     <wire>
-      <p1 x="560" y="720"/>
-      <p2 x="720" y="720"/>
+      <p1 x="1080" y="-540"/>
+      <p2 x="1100" y="-540"/>
     </wire>
     <wire>
-      <p1 x="580" y="660"/>
-      <p2 x="660" y="660"/>
+      <p1 x="540" y="-540"/>
+      <p2 x="1020" y="-540"/>
     </wire>
     <wire>
-      <p1 x="500" y="980"/>
-      <p2 x="680" y="980"/>
+      <p1 x="1100" y="-540"/>
+      <p2 x="1180" y="-540"/>
     </wire>
     <wire>
-      <p1 x="520" y="920"/>
-      <p2 x="540" y="920"/>
-    </wire>
-    <wire>
-      <p1 x="20" y="600"/>
-      <p2 x="160" y="600"/>
-    </wire>
-    <wire>
-      <p1 x="220" y="600"/>
-      <p2 x="460" y="600"/>
-    </wire>
-    <wire>
-      <p1 x="1260" y="220"/>
-      <p2 x="1340" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="960" y="220"/>
-      <p2 x="1040" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="1120" y="220"/>
-      <p2 x="1160" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="520" y="860"/>
-      <p2 x="840" y="860"/>
-    </wire>
-    <wire>
-      <p1 x="540" y="800"/>
-      <p2 x="680" y="800"/>
+      <p1 x="520" y="-800"/>
+      <p2 x="1580" y="-800"/>
     </wire>
     <wire>
       <p1 x="960" y="160"/>
-      <p2 x="1040" y="160"/>
+      <p2 x="980" y="160"/>
     </wire>
     <wire>
-      <p1 x="0" y="-100"/>
-      <p2 x="120" y="-100"/>
-    </wire>
-    <wire>
-      <p1 x="180" y="-100"/>
-      <p2 x="520" y="-100"/>
+      <p1 x="840" y="-420"/>
+      <p2 x="940" y="-420"/>
     </wire>
     <wire>
       <p1 x="1540" y="1060"/>
@@ -3512,6 +4087,294 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <p2 x="1720" y="1060"/>
     </wire>
     <wire>
+      <p1 x="360" y="1060"/>
+      <p2 x="480" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="640" y="-40"/>
+      <p2 x="680" y="-40"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="-680"/>
+      <p2 x="1400" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="1400" y="-680"/>
+      <p2 x="1480" y="-680"/>
+    </wire>
+    <wire>
+      <p1 x="-60" y="40"/>
+      <p2 x="-40" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="40"/>
+      <p2 x="740" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="40"/>
+      <p2 x="1460" y="40"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-300"/>
+      <p2 x="620" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-560"/>
+      <p2 x="1020" y="-560"/>
+    </wire>
+    <wire>
+      <p1 x="1140" y="560"/>
+      <p2 x="1240" y="560"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-820"/>
+      <p2 x="1580" y="-820"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="820"/>
+      <p2 x="560" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-440"/>
+      <p2 x="780" y="-440"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="440"/>
+      <p2 x="360" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="440" y="440"/>
+      <p2 x="580" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="440"/>
+      <p2 x="440" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="440"/>
+      <p2 x="400" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="440"/>
+      <p2 x="700" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="440"/>
+      <p2 x="600" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="1080"/>
+      <p2 x="380" y="1080"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-700"/>
+      <p2 x="1320" y="-700"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="60"/>
+      <p2 x="-120" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="1760" y="60"/>
+      <p2 x="1860" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="220" y="60"/>
+      <p2 x="260" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="60"/>
+      <p2 x="460" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="60"/>
+      <p2 x="420" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="60"/>
+      <p2 x="380" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="60"/>
+      <p2 x="300" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="60"/>
+      <p2 x="540" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="460" y="60"/>
+      <p2 x="500" y="60"/>
+    </wire>
+    <wire>
+      <p1 x="180" y="700"/>
+      <p2 x="300" y="700"/>
+    </wire>
+    <wire>
+      <p1 x="-180" y="-960"/>
+      <p2 x="100" y="-960"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="-960"/>
+      <p2 x="500" y="-960"/>
+    </wire>
+    <wire>
+      <p1 x="680" y="-320"/>
+      <p2 x="780" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="520" y="-320"/>
+      <p2 x="620" y="-320"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="320"/>
+      <p2 x="620" y="320"/>
+    </wire>
+    <wire>
+      <p1 x="1160" y="960"/>
+      <p2 x="1320" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="960"/>
+      <p2 x="1140" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="1380" y="960"/>
+      <p2 x="1560" y="960"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-580"/>
+      <p2 x="1020" y="-580"/>
+    </wire>
+    <wire>
+      <p1 x="1040" y="580"/>
+      <p2 x="1060" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="580"/>
+      <p2 x="1080" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="-840"/>
+      <p2 x="1660" y="-840"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-840"/>
+      <p2 x="1580" y="-840"/>
+    </wire>
+    <wire>
+      <p1 x="1660" y="-840"/>
+      <p2 x="1740" y="-840"/>
+    </wire>
+    <wire>
+      <p1 x="1480" y="200"/>
+      <p2 x="1580" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1640" y="200"/>
+      <p2 x="1720" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="200"/>
+      <p2 x="1100" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="200"/>
+      <p2 x="740" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="200"/>
+      <p2 x="1860" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="840"/>
+      <p2 x="460" y="840"/>
+    </wire>
+    <wire>
+      <p1 x="560" y="-460"/>
+      <p2 x="780" y="-460"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-720"/>
+      <p2 x="1320" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="1520" y="80"/>
+      <p2 x="1720" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="80"/>
+      <p2 x="20" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="80"/>
+      <p2 x="1860" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="540" y="-340"/>
+      <p2 x="620" y="-340"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-860"/>
+      <p2 x="1580" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="220"/>
+      <p2 x="980" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="1060" y="220"/>
+      <p2 x="1100" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="1200" y="220"/>
+      <p2 x="1300" y="220"/>
+    </wire>
+    <wire>
+      <p1 x="80" y="860"/>
+      <p2 x="120" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="240" y="860"/>
+      <p2 x="320" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="200" y="860"/>
+      <p2 x="240" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="860"/>
+      <p2 x="200" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="120" y="860"/>
+      <p2 x="160" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="1100" y="-480"/>
+      <p2 x="1180" y="-480"/>
+    </wire>
+    <wire>
+      <p1 x="-160" y="-100"/>
+      <p2 x="240" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="300" y="-100"/>
+      <p2 x="520" y="-100"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-740"/>
+      <p2 x="1320" y="-740"/>
+    </wire>
+    <wire>
+      <p1 x="620" y="100"/>
+      <p2 x="640" y="100"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="100"/>
+      <p2 x="20" y="100"/>
+    </wire>
+    <wire>
       <p1 x="1640" y="1380"/>
       <p2 x="1900" y="1380"/>
     </wire>
@@ -3520,28 +4383,12 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <p2 x="1620" y="1380"/>
     </wire>
     <wire>
-      <p1 x="560" y="740"/>
-      <p2 x="620" y="740"/>
+      <p1 x="1400" y="-620"/>
+      <p2 x="1480" y="-620"/>
     </wire>
     <wire>
-      <p1 x="-180" y="100"/>
-      <p2 x="-120" y="100"/>
-    </wire>
-    <wire>
-      <p1 x="640" y="-40"/>
-      <p2 x="680" y="-40"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="40"/>
-      <p2 x="1460" y="40"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="1000"/>
-      <p2 x="580" y="1000"/>
-    </wire>
-    <wire>
-      <p1 x="760" y="940"/>
-      <p2 x="880" y="940"/>
+      <p1 x="500" y="-620"/>
+      <p2 x="1320" y="-620"/>
     </wire>
     <wire>
       <p1 x="1420" y="1260"/>
@@ -3552,208 +4399,176 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <p2 x="1840" y="1260"/>
     </wire>
     <wire>
-      <p1 x="0" y="620"/>
-      <p2 x="20" y="620"/>
+      <p1 x="600" y="-880"/>
+      <p2 x="1580" y="-880"/>
     </wire>
     <wire>
-      <p1 x="1100" y="240"/>
-      <p2 x="1120" y="240"/>
+      <p1 x="380" y="880"/>
+      <p2 x="620" y="880"/>
     </wire>
     <wire>
-      <p1 x="1140" y="560"/>
-      <p2 x="1240" y="560"/>
+      <p1 x="1040" y="240"/>
+      <p2 x="1060" y="240"/>
     </wire>
     <wire>
-      <p1 x="520" y="880"/>
-      <p2 x="740" y="880"/>
+      <p1 x="1360" y="240"/>
+      <p2 x="1400" y="240"/>
     </wire>
     <wire>
-      <p1 x="540" y="820"/>
-      <p2 x="580" y="820"/>
+      <p1 x="1420" y="240"/>
+      <p2 x="1480" y="240"/>
     </wire>
     <wire>
-      <p1 x="-100" y="-120"/>
-      <p2 x="-60" y="-120"/>
+      <p1 x="500" y="-500"/>
+      <p2 x="1020" y="-500"/>
     </wire>
     <wire>
-      <p1 x="1020" y="120"/>
-      <p2 x="1040" y="120"/>
+      <p1 x="420" y="760"/>
+      <p2 x="500" y="760"/>
     </wire>
     <wire>
-      <p1 x="440" y="440"/>
-      <p2 x="580" y="440"/>
+      <p1 x="960" y="120"/>
+      <p2 x="980" y="120"/>
     </wire>
     <wire>
-      <p1 x="580" y="440"/>
-      <p2 x="600" y="440"/>
+      <p1 x="500" y="-380"/>
+      <p2 x="780" y="-380"/>
     </wire>
     <wire>
-      <p1 x="240" y="760"/>
-      <p2 x="280" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="760"/>
-      <p2 x="460" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="760"/>
-      <p2 x="400" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="320" y="760"/>
-      <p2 x="360" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="760"/>
-      <p2 x="320" y="760"/>
-    </wire>
-    <wire>
-      <p1 x="-160" y="-60"/>
-      <p2 x="-100" y="-60"/>
-    </wire>
-    <wire>
-      <p1 x="500" y="-60"/>
-      <p2 x="520" y="-60"/>
-    </wire>
-    <wire>
-      <p1 x="-100" y="-60"/>
-      <p2 x="120" y="-60"/>
+      <p1 x="360" y="1020"/>
+      <p2 x="680" y="1020"/>
     </wire>
     <wire>
       <p1 x="1520" y="380"/>
       <p2 x="1720" y="380"/>
     </wire>
     <wire>
-      <p1 x="1020" y="380"/>
+      <p1 x="960" y="380"/>
       <p2 x="1460" y="380"/>
     </wire>
     <wire>
-      <p1 x="-180" y="60"/>
-      <p2 x="-120" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="1720" y="60"/>
-      <p2 x="1820" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="200" y="60"/>
-      <p2 x="240" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="280" y="60"/>
-      <p2 x="360" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="60"/>
-      <p2 x="280" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="480" y="60"/>
-      <p2 x="520" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="440" y="60"/>
-      <p2 x="480" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="400" y="60"/>
-      <p2 x="440" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="60"/>
-      <p2 x="400" y="60"/>
+      <p1 x="520" y="-640"/>
+      <p2 x="1320" y="-640"/>
     </wire>
     <wire>
       <p1 x="640" y="-80"/>
       <p2 x="640" y="-40"/>
     </wire>
     <wire>
-      <p1 x="320" y="760"/>
-      <p2 x="320" y="880"/>
-    </wire>
-    <wire>
       <p1 x="1600" y="980"/>
       <p2 x="1600" y="1260"/>
     </wire>
     <wire>
-      <p1 x="580" y="620"/>
-      <p2 x="580" y="660"/>
+      <p1 x="320" y="440"/>
+      <p2 x="320" y="580"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="720"/>
+      <p2 x="320" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="320" y="820"/>
+      <p2 x="320" y="860"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="40"/>
+      <p2 x="960" y="120"/>
+    </wire>
+    <wire>
+      <p1 x="960" y="260"/>
+      <p2 x="960" y="380"/>
+    </wire>
+    <wire>
+      <p1 x="260" y="60"/>
+      <p2 x="260" y="220"/>
     </wire>
     <wire>
       <p1 x="580" y="-80"/>
       <p2 x="580" y="440"/>
     </wire>
     <wire>
-      <p1 x="200" y="60"/>
-      <p2 x="200" y="260"/>
+      <p1 x="580" y="-940"/>
+      <p2 x="580" y="-860"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-860"/>
+      <p2 x="580" y="-720"/>
+    </wire>
+    <wire>
+      <p1 x="580" y="-720"/>
+      <p2 x="580" y="-580"/>
     </wire>
     <wire>
       <p1 x="520" y="-80"/>
-      <p2 x="520" y="-60"/>
+      <p2 x="520" y="-40"/>
     </wire>
     <wire>
-      <p1 x="520" y="620"/>
-      <p2 x="520" y="860"/>
+      <p1 x="520" y="-940"/>
+      <p2 x="520" y="-800"/>
     </wire>
     <wire>
-      <p1 x="520" y="20"/>
-      <p2 x="520" y="60"/>
+      <p1 x="520" y="-640"/>
+      <p2 x="520" y="-520"/>
     </wire>
     <wire>
-      <p1 x="520" y="60"/>
-      <p2 x="520" y="220"/>
+      <p1 x="520" y="-520"/>
+      <p2 x="520" y="-400"/>
     </wire>
     <wire>
-      <p1 x="520" y="860"/>
-      <p2 x="520" y="880"/>
+      <p1 x="520" y="-400"/>
+      <p2 x="520" y="-320"/>
     </wire>
     <wire>
-      <p1 x="520" y="880"/>
-      <p2 x="520" y="900"/>
+      <p1 x="520" y="-800"/>
+      <p2 x="520" y="-640"/>
     </wire>
     <wire>
-      <p1 x="520" y="900"/>
-      <p2 x="520" y="920"/>
+      <p1 x="200" y="860"/>
+      <p2 x="200" y="1000"/>
     </wire>
     <wire>
-      <p1 x="460" y="620"/>
-      <p2 x="460" y="640"/>
+      <p1 x="1480" y="200"/>
+      <p2 x="1480" y="240"/>
     </wire>
     <wire>
-      <p1 x="460" y="720"/>
-      <p2 x="460" y="760"/>
+      <p1 x="460" y="60"/>
+      <p2 x="460" y="180"/>
     </wire>
     <wire>
-      <p1 x="400" y="760"/>
-      <p2 x="400" y="920"/>
+      <p1 x="1100" y="-540"/>
+      <p2 x="1100" y="-480"/>
     </wire>
     <wire>
-      <p1 x="400" y="60"/>
-      <p2 x="400" y="160"/>
+      <p1 x="80" y="860"/>
+      <p2 x="80" y="940"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="720"/>
+      <p2 x="400" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="440"/>
+      <p2 x="400" y="500"/>
+    </wire>
+    <wire>
+      <p1 x="400" y="820"/>
+      <p2 x="400" y="840"/>
     </wire>
     <wire>
       <p1 x="1680" y="980"/>
       <p2 x="1680" y="1160"/>
     </wire>
     <wire>
-      <p1 x="20" y="600"/>
-      <p2 x="20" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="20" y="620"/>
-      <p2 x="20" y="640"/>
-    </wire>
-    <wire>
       <p1 x="1620" y="980"/>
       <p2 x="1620" y="1380"/>
     </wire>
     <wire>
-      <p1 x="280" y="60"/>
-      <p2 x="280" y="180"/>
+      <p1 x="340" y="720"/>
+      <p2 x="340" y="760"/>
     </wire>
     <wire>
-      <p1 x="280" y="760"/>
-      <p2 x="280" y="860"/>
+      <p1 x="1560" y="980"/>
+      <p2 x="1560" y="1060"/>
     </wire>
     <wire>
       <p1 x="600" y="440"/>
@@ -3761,6 +4576,22 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
     </wire>
     <wire>
       <p1 x="600" y="-80"/>
+      <p2 x="600" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-940"/>
+      <p2 x="600" y="-880"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="-880"/>
+      <p2 x="600" y="-740"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="200"/>
+      <p2 x="600" y="260"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="260"/>
       <p2 x="600" y="320"/>
     </wire>
     <wire>
@@ -3768,128 +4599,180 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <p2 x="600" y="400"/>
     </wire>
     <wire>
-      <p1 x="1560" y="980"/>
-      <p2 x="1560" y="1060"/>
+      <p1 x="540" y="20"/>
+      <p2 x="540" y="60"/>
     </wire>
     <wire>
       <p1 x="540" y="-80"/>
       <p2 x="540" y="-40"/>
     </wire>
     <wire>
-      <p1 x="540" y="620"/>
-      <p2 x="540" y="780"/>
+      <p1 x="540" y="-940"/>
+      <p2 x="540" y="-820"/>
     </wire>
     <wire>
-      <p1 x="540" y="780"/>
-      <p2 x="540" y="800"/>
+      <p1 x="540" y="-820"/>
+      <p2 x="540" y="-660"/>
     </wire>
     <wire>
-      <p1 x="540" y="800"/>
-      <p2 x="540" y="820"/>
+      <p1 x="540" y="-660"/>
+      <p2 x="540" y="-540"/>
     </wire>
     <wire>
-      <p1 x="1120" y="140"/>
-      <p2 x="1120" y="200"/>
+      <p1 x="540" y="-540"/>
+      <p2 x="540" y="-440"/>
     </wire>
     <wire>
-      <p1 x="1120" y="220"/>
-      <p2 x="1120" y="240"/>
+      <p1 x="540" y="60"/>
+      <p2 x="540" y="220"/>
     </wire>
     <wire>
-      <p1 x="480" y="620"/>
-      <p2 x="480" y="660"/>
+      <p1 x="540" y="-440"/>
+      <p2 x="540" y="-340"/>
     </wire>
     <wire>
-      <p1 x="480" y="60"/>
-      <p2 x="480" y="200"/>
+      <p1 x="220" y="60"/>
+      <p2 x="220" y="260"/>
     </wire>
     <wire>
-      <p1 x="-100" y="-80"/>
-      <p2 x="-100" y="-60"/>
+      <p1 x="160" y="860"/>
+      <p2 x="160" y="980"/>
     </wire>
     <wire>
-      <p1 x="-100" y="-140"/>
-      <p2 x="-100" y="-120"/>
+      <p1 x="1760" y="-20"/>
+      <p2 x="1760" y="60"/>
     </wire>
     <wire>
-      <p1 x="100" y="0"/>
-      <p2 x="100" y="80"/>
+      <p1 x="1060" y="140"/>
+      <p2 x="1060" y="200"/>
     </wire>
     <wire>
-      <p1 x="1700" y="980"/>
-      <p2 x="1700" y="1060"/>
+      <p1 x="1060" y="220"/>
+      <p2 x="1060" y="240"/>
     </wire>
     <wire>
       <p1 x="1060" y="580"/>
       <p2 x="1060" y="640"/>
     </wire>
     <wire>
+      <p1 x="420" y="60"/>
+      <p2 x="420" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="420" y="720"/>
+      <p2 x="420" y="760"/>
+    </wire>
+    <wire>
+      <p1 x="1700" y="980"/>
+      <p2 x="1700" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="40"/>
+      <p2 x="-40" y="80"/>
+    </wire>
+    <wire>
+      <p1 x="-40" y="100"/>
+      <p2 x="-40" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="720"/>
+      <p2 x="360" y="1020"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="440"/>
+      <p2 x="360" y="540"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="1020"/>
+      <p2 x="360" y="1040"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="1040"/>
+      <p2 x="360" y="1060"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="1060"/>
+      <p2 x="360" y="1080"/>
+    </wire>
+    <wire>
       <p1 x="1640" y="980"/>
       <p2 x="1640" y="1380"/>
     </wire>
     <wire>
-      <p1 x="360" y="760"/>
-      <p2 x="360" y="900"/>
+      <p1 x="300" y="60"/>
+      <p2 x="300" y="180"/>
     </wire>
     <wire>
-      <p1 x="360" y="60"/>
-      <p2 x="360" y="140"/>
-    </wire>
-    <wire>
-      <p1 x="620" y="-80"/>
-      <p2 x="620" y="140"/>
+      <p1 x="300" y="720"/>
+      <p2 x="300" y="760"/>
     </wire>
     <wire>
       <p1 x="1580" y="980"/>
       <p2 x="1580" y="1160"/>
     </wire>
     <wire>
-      <p1 x="240" y="60"/>
-      <p2 x="240" y="220"/>
+      <p1 x="620" y="-80"/>
+      <p2 x="620" y="40"/>
     </wire>
     <wire>
-      <p1 x="240" y="760"/>
-      <p2 x="240" y="840"/>
+      <p1 x="620" y="-940"/>
+      <p2 x="620" y="-900"/>
     </wire>
     <wire>
-      <p1 x="560" y="620"/>
-      <p2 x="560" y="720"/>
+      <p1 x="620" y="40"/>
+      <p2 x="620" y="100"/>
     </wire>
     <wire>
       <p1 x="560" y="-80"/>
-      <p2 x="560" y="320"/>
+      <p2 x="560" y="-40"/>
     </wire>
     <wire>
-      <p1 x="560" y="320"/>
-      <p2 x="560" y="400"/>
+      <p1 x="560" y="-940"/>
+      <p2 x="560" y="-840"/>
     </wire>
     <wire>
-      <p1 x="560" y="720"/>
-      <p2 x="560" y="740"/>
+      <p1 x="560" y="-840"/>
+      <p2 x="560" y="-700"/>
     </wire>
     <wire>
-      <p1 x="500" y="620"/>
-      <p2 x="500" y="960"/>
+      <p1 x="560" y="-700"/>
+      <p2 x="560" y="-560"/>
     </wire>
     <wire>
-      <p1 x="500" y="-60"/>
-      <p2 x="500" y="-40"/>
+      <p1 x="560" y="-560"/>
+      <p2 x="560" y="-460"/>
     </wire>
     <wire>
-      <p1 x="500" y="960"/>
-      <p2 x="500" y="980"/>
+      <p1 x="240" y="860"/>
+      <p2 x="240" y="1020"/>
     </wire>
     <wire>
-      <p1 x="500" y="980"/>
-      <p2 x="500" y="1000"/>
+      <p1 x="500" y="60"/>
+      <p2 x="500" y="200"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-940"/>
+      <p2 x="500" y="-780"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-620"/>
+      <p2 x="500" y="-500"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-500"/>
+      <p2 x="500" y="-380"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-380"/>
+      <p2 x="500" y="-300"/>
+    </wire>
+    <wire>
+      <p1 x="500" y="-780"/>
+      <p2 x="500" y="-620"/>
     </wire>
     <wire>
       <p1 x="1720" y="80"/>
       <p2 x="1720" y="200"/>
-    </wire>
-    <wire>
-      <p1 x="1720" y="0"/>
-      <p2 x="1720" y="60"/>
     </wire>
     <wire>
       <p1 x="1720" y="200"/>
@@ -3900,28 +4783,40 @@ Step 4&amp;5: Aufnahme von IP &amp; CS aus der Vektortabelle</string>
       <p2 x="440" y="460"/>
     </wire>
     <wire>
-      <p1 x="440" y="640"/>
-      <p2 x="440" y="660"/>
+      <p1 x="1400" y="-680"/>
+      <p2 x="1400" y="-620"/>
     </wire>
     <wire>
-      <p1 x="440" y="60"/>
-      <p2 x="440" y="180"/>
+      <p1 x="120" y="860"/>
+      <p2 x="120" y="960"/>
     </wire>
     <wire>
-      <p1 x="760" y="940"/>
-      <p2 x="760" y="960"/>
+      <p1 x="700" y="440"/>
+      <p2 x="700" y="500"/>
     </wire>
     <wire>
-      <p1 x="1020" y="40"/>
-      <p2 x="1020" y="120"/>
-    </wire>
-    <wire>
-      <p1 x="1020" y="260"/>
-      <p2 x="1020" y="380"/>
+      <p1 x="1660" y="-900"/>
+      <p2 x="1660" y="-840"/>
     </wire>
     <wire>
       <p1 x="1660" y="980"/>
       <p2 x="1660" y="1260"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="60"/>
+      <p2 x="380" y="140"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="720"/>
+      <p2 x="380" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="880"/>
+      <p2 x="380" y="900"/>
+    </wire>
+    <wire>
+      <p1 x="380" y="900"/>
+      <p2 x="380" y="920"/>
     </wire>
   </wires>
   <measurementOrdering/>

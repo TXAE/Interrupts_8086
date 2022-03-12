@@ -13,7 +13,7 @@
       <elementAttributes>
         <entry>
           <string>maxValue</string>
-          <int>7</int>
+          <int>10</int>
         </entry>
         <entry>
           <string>Label</string>
@@ -21,7 +21,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>3</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
       <pos x="840" y="760"/>
@@ -40,7 +40,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>3</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
       <pos x="980" y="760"/>
@@ -82,7 +82,7 @@
         </entry>
         <entry>
           <string>Bits</string>
-          <int>3</int>
+          <int>4</int>
         </entry>
       </elementAttributes>
       <pos x="840" y="820"/>

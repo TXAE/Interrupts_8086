@@ -22,7 +22,7 @@ namespace Interrupts_8086.Properties {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "17.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public class Resources {
+    internal class Resources {
         
         private static global::System.Resources.ResourceManager resourceMan;
         
@@ -36,7 +36,7 @@ namespace Interrupts_8086.Properties {
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Resources.ResourceManager ResourceManager {
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
                     global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("Interrupts_8086.Properties.Resources", typeof(Resources).Assembly);
@@ -51,7 +51,7 @@ namespace Interrupts_8086.Properties {
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
         [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
-        public static global::System.Globalization.CultureInfo Culture {
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -63,7 +63,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] BillieJean {
+        internal static byte[] BillieJean {
             get {
                 object obj = ResourceManager.GetObject("BillieJean", resourceCulture);
                 return ((byte[])(obj));
@@ -73,7 +73,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] Digital {
+        internal static byte[] Digital {
             get {
                 object obj = ResourceManager.GetObject("Digital", resourceCulture);
                 return ((byte[])(obj));
@@ -83,7 +83,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] Interruptcontroller {
+        internal static byte[] Interruptcontroller {
             get {
                 object obj = ResourceManager.GetObject("Interruptcontroller", resourceCulture);
                 return ((byte[])(obj));
@@ -93,7 +93,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] IPCS {
+        internal static byte[] IPCS {
             get {
                 object obj = ResourceManager.GetObject("IPCS", resourceCulture);
                 return ((byte[])(obj));
@@ -103,7 +103,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] ISR {
+        internal static byte[] ISR {
             get {
                 object obj = ResourceManager.GetObject("ISR", resourceCulture);
                 return ((byte[])(obj));
@@ -113,7 +113,17 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] Main_Interruptverarbeitung_8086 {
+        internal static byte[] IVT {
+            get {
+                object obj = ResourceManager.GetObject("IVT", resourceCulture);
+                return ((byte[])(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Byte[].
+        /// </summary>
+        internal static byte[] Main_Interruptverarbeitung_8086 {
             get {
                 object obj = ResourceManager.GetObject("Main_Interruptverarbeitung_8086", resourceCulture);
                 return ((byte[])(obj));
@@ -123,7 +133,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] Misc {
+        internal static byte[] Misc {
             get {
                 object obj = ResourceManager.GetObject("Misc", resourceCulture);
                 return ((byte[])(obj));
@@ -133,7 +143,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] Offsetadd {
+        internal static byte[] Offsetadd {
             get {
                 object obj = ResourceManager.GetObject("Offsetadd", resourceCulture);
                 return ((byte[])(obj));
@@ -143,7 +153,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] Prozessor {
+        internal static byte[] Prozessor {
             get {
                 object obj = ResourceManager.GetObject("Prozessor", resourceCulture);
                 return ((byte[])(obj));
@@ -153,7 +163,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] RAM_Control {
+        internal static byte[] RAM_Control {
             get {
                 object obj = ResourceManager.GetObject("RAM_Control", resourceCulture);
                 return ((byte[])(obj));
@@ -163,7 +173,7 @@ namespace Interrupts_8086.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
-        public static byte[] Step_counter {
+        internal static byte[] Step_counter {
             get {
                 object obj = ResourceManager.GetObject("Step_counter", resourceCulture);
                 return ((byte[])(obj));
