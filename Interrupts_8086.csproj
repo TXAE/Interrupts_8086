@@ -14,9 +14,10 @@
     <PackageProjectUrl>https://github.com/TXAE/Interrupts_8086</PackageProjectUrl>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryUrl>https://github.com/TXAE/Interrupts_8086</RepositoryUrl>
-    <PackageTags>Digital</PackageTags>
+    <PackageTags>Digital, Intel, 8086</PackageTags>
     <Description>Simulates interrupt handling of the Intel 8086 chip within Digital</Description>
-    <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
+    <AssemblyOriginatorKeyFile>sgKey.snk</AssemblyOriginatorKeyFile>
+    <PackageIcon>Interrupts_8086.ico</PackageIcon>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
@@ -73,6 +74,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Update="Interrupts_8086.ico">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
     <None Update="README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>

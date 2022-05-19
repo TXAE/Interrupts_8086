@@ -1,5 +1,10 @@
 ﻿using System.Diagnostics;
 using System.Reflection;
+using System.Runtime.InteropServices;
+[DllImport("User32.dll", CharSet = CharSet.Unicode)]
+static extern int MessageBox(IntPtr h, string m, string c, int type);
+
+findJavaVersion();
 
 Directory.CreateDirectory("Embedded_Circuits");
 
@@ -21,9 +26,6 @@ foreach (string resourceName in resourceNames)
 
 }
 
-Console.Write("Java Version: ");
-findJavaVersion();
-
 //Start Main Simulation screen
 Process p = new Process();
 p.StartInfo.UseShellExecute = false;
@@ -35,31 +37,24 @@ Console.WriteLine("starting Digital with the following command:\n" +
     p.StartInfo.FileName + " " +
     p.StartInfo.Arguments);
 p.Start();
-Thread.Sleep(50); //to allow Digital to start before this program terminates..
+//Thread.Sleep(50); //to allow Digital to start before this program terminates..
 
 static void findJavaVersion()
 {
-    try
-    {
-        ProcessStartInfo psi = new ProcessStartInfo();
-        psi.FileName = "java";
-        psi.Arguments = " -version";
-        psi.RedirectStandardError = true;
-        psi.UseShellExecute = false;
+    ProcessStartInfo psi = new ProcessStartInfo();
+    psi.FileName = "java";
+    psi.Arguments = " -version";
+    psi.RedirectStandardError = true;
+    psi.UseShellExecute = false;
+    Process pr = Process.Start(psi);
 
-        Process pr = Process.Start(psi);
-        string strOutput = pr.StandardError.ReadLine().Split(' ')[2].Replace("\"", "");
-
-        Console.WriteLine(strOutput);
-        if (strOutput.Contains("'java' is not recognized as an internal or external command"))
-        {
-            Console.WriteLine("Java doesn't seem to be installed on this machine.\n" +
-                "Please download & install java, then try again.");
-            throw new Exception("Java not found.");
-        }
-    }
-    catch (Exception ex)
+    string strOutput = pr.StandardError.ReadLine().Split(' ')[2].Replace("\"", "");
+    if (strOutput.Contains("'java' is not recognized as an internal or external command"))
     {
-        Console.WriteLine("Exception is " + ex.Message);
+        MessageBox((IntPtr)0, "Java doesn't seem to be installed on this machine.\n" +
+        "Please download & install java, then try again.\n\n" +
+        "I determined that Java is missing by trying the command 'java -version' in console,\n" +
+        "to which the output was:\n" + strOutput, "Java not found on this machine.", 0);
+    throw new ApplicationException("Java not found."); //to not continue unpacking and trying to launch Digital
     }
 }
