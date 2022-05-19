@@ -9,8 +9,9 @@
 
 Simulates interrupt handling of the Intel 8086 chip within [Digital](https://github.com/hneemann/Digital).
 
+[Link to the documentation](https://docs.google.com/document/d/1RAt4_4JWKJ0ze8NETD8HuTET7vR1I2NvSyDxpfuCJKE).
+
 Builds on previous work by [Silas Merlin Gerhard](https://www.linkedin.com/in/silas-merlin-gerhard-101645153/), see [Version 1 by Silas Gerhard](Version%201%20by%20Silas%20Gerhard).
-Read the [documentation](https://docs.google.com/document/d/1RAt4_4JWKJ0ze8NETD8HuTET7vR1I2NvSyDxpfuCJKE).
 
 A [Java Runtime Environment](https://www.java.com/) (at least JRE 8) is required to run Digital. 
 On Windows the easiest way to get Java is to install the [AdoptOpenJDK](https://adoptopenjdk.net/).
