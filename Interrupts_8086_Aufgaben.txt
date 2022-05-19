@@ -1,0 +1,22 @@
+1. Erläutern Sie mithilfe der Simulation wie aus Stack-Pointer (SP) und Stack-Segment (SS) die Stack-Adresse zustande kommt.
+
+2. Stellen Sie SP und SS so ein, dass als Stack Adresse 0xCAFFE rauskommt. Welche SP und SS ergeben sich? Gibt es mehr als eine Lösung?
+
+3. Starten Sie die Simulation (neu) und wählen Sie einen Interrupt. Springen Sie bis Schritt 4 und beobachten den Adressbus. 
+Wie vermuten Sie kommt der Adressbus in Schritt 4 zustande? Wählen Sie einen anderen Interrupt und verifizieren Sie Ihre Vermutung.
+Sie müssen dazu zumindest zu Schritt 3 zurückspringen, damit der Prozessor ihre neue Interrupt-Nummer aufnehmen kann. 
+Alternativ können Sie die Simulation neu starten.
+
+4. In Schritt 4 und 5 werden auf dem Datenbus Daten übertragen. 
+Beobachten Sie durch Klick auf den RAM-Baustein wie sich diese Daten zusammensetzen.
+Stellen Sie die Einträge im RAM so um, dass bei Interrupt 0 in Schritt 4 für IP "0xABAD" und in Schritt 5 für CS "0x1DEA" übertragen wird.
+Die Simulation muss dazu laufen.
+
+5. Schlagen Sie den 8086 Bus im Internet nach. 
+Ist die Darstellung von Adress- und Datenbus von dem Hintergrund Ihrer Recherche in der Simulation korrekt?
+
+6. Wie finden Sie die Simulation?
+
+
+Diese Simulation wurde in zwei Studienarbeiten von Ihren Komillitonen der Jahrgänge TEL18 und TEL19 entwickelt.
+Sprechen Sie mit Herrn Lehmann darüber, falls Sie sich vorstellen können, die Simulation noch weiter auszubauen.
