@@ -14,4 +14,4 @@ Builds on previous work by [Silas Merlin Gerhard](https://www.linkedin.com/in/si
 A [Java Runtime Environment](https://www.java.com/) (at least JRE 8) is required to run Digital. 
 On Windows the easiest way to get Java is to install the [AdoptOpenJDK](https://adoptopenjdk.net/).
 
-![Screenshot 2022-03-08 174336](https://user-images.githubusercontent.com/70020564/157284449-8232f69c-009e-4037-bad4-978231b3f1e2.png)
+![Screenshot 2022-05-19 122427](https://user-images.githubusercontent.com/70020564/169272369-0d2827c4-a4a3-4c5c-a41b-88845789c73c.png)
