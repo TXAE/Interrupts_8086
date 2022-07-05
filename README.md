@@ -7,7 +7,7 @@
 
 # Interrupts_8086 #
 
-Simulates interrupt handling of the Intel 8086 chip within [Digital](https://github.com/hneemann/Digital).
+Simulates how the [Intel 8086 microprocessor](https://en.wikipedia.org/wiki/Intel_8086) handles interrupts within [Digital](https://github.com/hneemann/Digital).
 
 [Link to the documentation (German)](https://docs.google.com/document/d/1RAt4_4JWKJ0ze8NETD8HuTET7vR1I2NvSyDxpfuCJKE).
 
