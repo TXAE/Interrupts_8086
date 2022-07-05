@@ -120,7 +120,7 @@
           <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="160" y="-20"/>
+      <pos x="160" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -130,7 +130,7 @@
           <string>C</string>
         </entry>
       </elementAttributes>
-      <pos x="200" y="-20"/>
+      <pos x="200" y="140"/>
     </visualElement>
     <visualElement>
       <elementName>Tunnel</elementName>
@@ -255,12 +255,16 @@
       <elementName>Text</elementName>
       <elementAttributes>
         <entry>
+          <string>textFontSize</string>
+          <int>20</int>
+        </entry>
+        <entry>
           <string>Description</string>
-          <string>Hold Adr on High-Z 
-until step 5</string>
+          <string>Adress of ISR only known 
+in step 5 or 6</string>
         </entry>
       </elementAttributes>
-      <pos x="1800" y="360"/>
+      <pos x="1740" y="380"/>
     </visualElement>
     <visualElement>
       <elementName>In</elementName>
@@ -336,59 +340,6 @@ until step 5</string>
       <elementName>Or</elementName>
       <elementAttributes/>
       <pos x="820" y="200"/>
-    </visualElement>
-    <visualElement>
-      <elementName>D_FF</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>TEST-IP_out</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-      </elementAttributes>
-      <pos x="1620" y="60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Out</elementName>
-      <elementAttributes>
-        <entry>
-          <string>Label</string>
-          <string>TEST-IP_out</string>
-        </entry>
-        <entry>
-          <string>Bits</string>
-          <int>16</int>
-        </entry>
-        <entry>
-          <string>intFormat</string>
-          <intFormat>hex</intFormat>
-        </entry>
-      </elementAttributes>
-      <pos x="1760" y="60"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Delay</elementName>
-      <elementAttributes/>
-      <pos x="1540" y="80"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Text</elementName>
-      <elementAttributes>
-        <entry>
-          <string>textFontSize</string>
-          <int>20</int>
-        </entry>
-        <entry>
-          <string>Description</string>
-          <string>Delay needed to let 
-Databus signal propagate to D-input
-of D-Flipflop before Clock kicks</string>
-        </entry>
-      </elementAttributes>
-      <pos x="1540" y="120"/>
     </visualElement>
     <visualElement>
       <elementName>Text</elementName>
@@ -494,6 +445,20 @@ of D-Flipflop before Clock kicks</string>
       </elementAttributes>
       <pos x="1300" y="180"/>
     </visualElement>
+    <visualElement>
+      <elementName>Text</elementName>
+      <elementAttributes>
+        <entry>
+          <string>textFontSize</string>
+          <int>15</int>
+        </entry>
+        <entry>
+          <string>Description</string>
+          <string>Step 5 OR 6: show Adr</string>
+        </entry>
+      </elementAttributes>
+      <pos x="880" y="200"/>
+    </visualElement>
   </visualElements>
   <wires>
     <wire>
@@ -509,12 +474,32 @@ of D-Flipflop before Clock kicks</string>
       <p2 x="660" y="640"/>
     </wire>
     <wire>
+      <p1 x="1380" y="800"/>
+      <p2 x="1400" y="800"/>
+    </wire>
+    <wire>
+      <p1 x="1360" y="160"/>
+      <p2 x="1380" y="160"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="420"/>
+      <p2 x="1620" y="420"/>
+    </wire>
+    <wire>
       <p1 x="720" y="200"/>
       <p2 x="820" y="200"/>
     </wire>
     <wire>
       <p1 x="1060" y="520"/>
       <p2 x="1820" y="520"/>
+    </wire>
+    <wire>
+      <p1 x="600" y="680"/>
+      <p2 x="740" y="680"/>
+    </wire>
+    <wire>
+      <p1 x="160" y="140"/>
+      <p2 x="200" y="140"/>
     </wire>
     <wire>
       <p1 x="280" y="140"/>
@@ -541,12 +526,20 @@ of D-Flipflop before Clock kicks</string>
       <p2 x="1320" y="780"/>
     </wire>
     <wire>
-      <p1 x="1580" y="80"/>
-      <p2 x="1620" y="80"/>
+      <p1 x="1480" y="300"/>
+      <p2 x="1600" y="300"/>
     </wire>
     <wire>
-      <p1 x="1500" y="80"/>
-      <p2 x="1540" y="80"/>
+      <p1 x="1600" y="300"/>
+      <p2 x="1640" y="300"/>
+    </wire>
+    <wire>
+      <p1 x="1500" y="620"/>
+      <p2 x="1600" y="620"/>
+    </wire>
+    <wire>
+      <p1 x="1600" y="620"/>
+      <p2 x="1640" y="620"/>
     </wire>
     <wire>
       <p1 x="360" y="720"/>
@@ -561,12 +554,36 @@ of D-Flipflop before Clock kicks</string>
       <p2 x="320" y="720"/>
     </wire>
     <wire>
-      <p1 x="160" y="-20"/>
-      <p2 x="200" y="-20"/>
+      <p1 x="240" y="880"/>
+      <p2 x="320" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="360" y="880"/>
+      <p2 x="980" y="880"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="240"/>
+      <p2 x="820" y="240"/>
     </wire>
     <wire>
       <p1 x="340" y="660"/>
       <p2 x="540" y="660"/>
+    </wire>
+    <wire>
+      <p1 x="340" y="820"/>
+      <p2 x="700" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="700" y="820"/>
+      <p2 x="1320" y="820"/>
+    </wire>
+    <wire>
+      <p1 x="1720" y="440"/>
+      <p2 x="1800" y="440"/>
+    </wire>
+    <wire>
+      <p1 x="1840" y="440"/>
+      <p2 x="1920" y="440"/>
     </wire>
     <wire>
       <p1 x="380" y="600"/>
@@ -590,87 +607,11 @@ of D-Flipflop before Clock kicks</string>
     </wire>
     <wire>
       <p1 x="780" y="280"/>
-      <p2 x="1400" y="280"/>
-    </wire>
-    <wire>
-      <p1 x="1400" y="280"/>
       <p2 x="1420" y="280"/>
     </wire>
     <wire>
       <p1 x="880" y="220"/>
       <p2 x="1060" y="220"/>
-    </wire>
-    <wire>
-      <p1 x="1380" y="800"/>
-      <p2 x="1400" y="800"/>
-    </wire>
-    <wire>
-      <p1 x="1360" y="160"/>
-      <p2 x="1380" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="1380" y="160"/>
-      <p2 x="1500" y="160"/>
-    </wire>
-    <wire>
-      <p1 x="1600" y="420"/>
-      <p2 x="1620" y="420"/>
-    </wire>
-    <wire>
-      <p1 x="600" y="680"/>
-      <p2 x="740" y="680"/>
-    </wire>
-    <wire>
-      <p1 x="1480" y="300"/>
-      <p2 x="1600" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="1600" y="300"/>
-      <p2 x="1640" y="300"/>
-    </wire>
-    <wire>
-      <p1 x="1500" y="620"/>
-      <p2 x="1600" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="1600" y="620"/>
-      <p2 x="1640" y="620"/>
-    </wire>
-    <wire>
-      <p1 x="240" y="880"/>
-      <p2 x="320" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="360" y="880"/>
-      <p2 x="980" y="880"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="240"/>
-      <p2 x="820" y="240"/>
-    </wire>
-    <wire>
-      <p1 x="340" y="820"/>
-      <p2 x="700" y="820"/>
-    </wire>
-    <wire>
-      <p1 x="700" y="820"/>
-      <p2 x="1320" y="820"/>
-    </wire>
-    <wire>
-      <p1 x="1720" y="440"/>
-      <p2 x="1800" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="1840" y="440"/>
-      <p2 x="1920" y="440"/>
-    </wire>
-    <wire>
-      <p1 x="1400" y="60"/>
-      <p2 x="1620" y="60"/>
-    </wire>
-    <wire>
-      <p1 x="1680" y="60"/>
-      <p2 x="1760" y="60"/>
     </wire>
     <wire>
       <p1 x="160" y="60"/>
@@ -741,10 +682,6 @@ of D-Flipflop before Clock kicks</string>
       <p2 x="660" y="640"/>
     </wire>
     <wire>
-      <p1 x="1400" y="60"/>
-      <p2 x="1400" y="280"/>
-    </wire>
-    <wire>
       <p1 x="1400" y="640"/>
       <p2 x="1400" y="800"/>
     </wire>
@@ -767,10 +704,6 @@ of D-Flipflop before Clock kicks</string>
     <wire>
       <p1 x="700" y="480"/>
       <p2 x="700" y="820"/>
-    </wire>
-    <wire>
-      <p1 x="1500" y="80"/>
-      <p2 x="1500" y="160"/>
     </wire>
   </wires>
   <measurementOrdering/>
