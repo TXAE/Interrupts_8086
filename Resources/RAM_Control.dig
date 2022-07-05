@@ -338,16 +338,6 @@
     </visualElement>
     <visualElement>
       <elementName>Delay</elementName>
-      <elementAttributes>
-        <entry>
-          <string>rotation</string>
-          <rotation rotation="2"/>
-        </entry>
-      </elementAttributes>
-      <pos x="1280" y="620"/>
-    </visualElement>
-    <visualElement>
-      <elementName>Delay</elementName>
       <elementAttributes/>
       <pos x="1240" y="800"/>
     </visualElement>
@@ -562,10 +552,6 @@ Effectively delays RD/WR by 4 clock cycles</string>
     </wire>
     <wire>
       <p1 x="1160" y="600"/>
-      <p2 x="1280" y="600"/>
-    </wire>
-    <wire>
-      <p1 x="1280" y="600"/>
       <p2 x="1300" y="600"/>
     </wire>
     <wire>
@@ -755,10 +741,6 @@ Effectively delays RD/WR by 4 clock cycles</string>
     <wire>
       <p1 x="960" y="500"/>
       <p2 x="960" y="520"/>
-    </wire>
-    <wire>
-      <p1 x="1280" y="600"/>
-      <p2 x="1280" y="620"/>
     </wire>
     <wire>
       <p1 x="320" y="120"/>
